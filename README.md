@@ -36,7 +36,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Here the first thing you have to do is enable ISS 
+What needs to be done here is to enable Internet Information Services (IIS). This involves configuring IIS settings to make web hosting possible. Once enabled, you can serve and manage web content on the server.
 <br />
 
 <p>
