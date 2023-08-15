@@ -22,21 +22,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+ 
+- Enable IIS (internet information services)
+- Install PHP Manager
+- Install MySQL
+- Configure OsTicket and install permissions
 
 <h2>Installation Steps</h2>
-<img width="338" alt="image" src="">
+
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="500" alt="image" src="https://github.com/HumbertoP1323/osticket-prereqs/assets/140670261/99e9096e-74b9-497d-82b5-70eb8c0915c1">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Here the first thing you have to do is enable ISS 
 <br />
 
 <p>
