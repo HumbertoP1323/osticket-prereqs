@@ -31,26 +31,33 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 
+
 <p>
 <img width="500" alt="image" src="https://github.com/HumbertoP1323/osticket-prereqs/assets/140670261/99e9096e-74b9-497d-82b5-70eb8c0915c1">
 
 </p>
 <p>
-What needs to be done here is to enable Internet Information Services (IIS). This involves configuring IIS settings to make web hosting possible. Once enabled, you can serve and manage web content on the server.
+First is to enable Internet Information Services (IIS). This involves configuring IIS settings to make web hosting possible. Once enabled, you can serve and manage web content on the server.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="496" alt="image" src="https://github.com/HumbertoP1323/osticket-prereqs/assets/140670261/a151e291-c008-4621-aa04-18a44bde37af">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once IIS has been enabled, proceed by downloading and installing PHP Manager for IIS (PHPManagerforIIS_V1.5.0.msi) from the designated installation files directory. Following the installation of PHP Manager for IIS, download and install the Rewrite Module (rewrite_amd64_en-US.msi).
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="500" alt="image" src="https://github.com/HumbertoP1323/osticket-prereqs/assets/140670261/927c7ef5-1fa5-4fe9-bf24-ce452877fda6">
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, move on to downloading and installing MySQL 5.5.62 (mysql-5.5.62-win32.msi) using the provided installation files. As you go through the MySQL setup wizard, simply agree to the terms by clicking "I agree." Then, choose the Typical installation option and follow through with the Install command. Once the installation is done, open the Configuration Wizard. Go for the Standard Configuration, and make sure to check the box for Install As Windows Service. Also, ensure that the MySQL Server will start automatically. For login details, use "root" as the username and set the password to "Password1." , while these credentials might be easy to guess in a practical situation, they'll work just fine for this lab.
 </p>
 <br />
+<img width="497" alt="image" src="https://github.com/HumbertoP1323/osticket-prereqs/assets/140670261/b4628ac1-3689-4db8-89fb-0cf41789d5c1">
+
+Begin by installing osTicket following the given instructions. Then, head to the PHP manager and turn on all the extensions needed for osTicket to work smoothly.
